@@ -1,0 +1,33 @@
+[
+  {
+    "type": "section",
+    "items": [
+      {
+        "type": "heading",
+        "size": 1,
+        "defaultValue": "Task"
+      },
+      {
+        "type": "input",
+        "messageKey": "TEXT_TASK",
+        "defaultValue": "",
+        "label": "Task",
+        "attributes": {
+          "limit": 100
+        }
+      },
+      {
+        "type": "input",
+        "messageKey": "TEXT_TASK2",
+        "defaultValue": "",
+        "attributes": {
+          "limit": 100
+        }
+      }
+    ]
+  },
+  {
+    "type": "submit",
+    "defaultValue": "Save"
+  }
+]
